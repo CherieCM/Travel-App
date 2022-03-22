@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "type": "Honeymoon Getaway to Milan ",
+    "duration": " 7 days |",
+    "for": "2 Adults |",
+    "cost": " $1600 |",
+    "includes": "Flight & Hotel"
+  },
+  {
+    "id": 2,
+    "type": "Backpacking Solo Adventure in Mexico ",
+    "duration": "18 days |",
+    "for": "1 Adult |",
+    "cost": " $1100 |",
+    "includes": " Flight, Guides, Hotels, & Food"
+  },
+  {
+    "id": 3,
+    "type": "Group Travels To Bangladesh ",
+    "duration": " 10-20 |",
+    "for": " 5+ Adults|",
+    "cost": " Range from $800-$2800|",
+    "includes": " Flight, Hotel, Activities"
+  },
+  {
+    "id": 4,
+    "type": "Spring Trip to NYC ",
+    "duration": " 8 Days |",
+    "for": " 2 Adults |",
+    "cost": " $3400 |",
+    "includes": " All-Inclusive"
+  },
+  {
+    "id": 5,
+    "type": "Summer Exchange in Copenhagen ",
+    "duration": " 3 Months |",
+    "for": " 4 Students |",
+    "cost": " $4500 per student |",
+    "includes": " Flights, Travel, Housing, Food"
+  },
+  {
+    "id": 6,
+    "type": "Backpacking Excursion through Ireland  ",
+    "duration": " 14 days",
+    "for": " | 2-4 Adults",
+    "cost": "| $1900 per Adult",
+    "includes": " |Flight, Hostel, Guides"
+  },
+  {
+    "id": 7,
+    "type": "Fun in Montreal ",
+    "duration": " 7 days |",
+    "for": " 1 Adult |",
+    "cost": "$1000 |",
+    "includes": "Flight, Hotel, Activities |",
+    "special": "Special Offer"
+  },
+  {
+    "id": 8,
+    "type": "Romantic Getaway in Cape Town ",
+    "duration": " 9 days |",
+    "for": "2 Adults |",
+    "cost": "$2800 |",
+    "includes": " All-Inclusive |",
+    "special": "Special Offer"
+  },
+  {
+    "id": 9,
+    "type": "City of Brotherly Love Tour (Philadelphia)  ",
+    "duration": "7 days",
+    "for": " | 2 Adults ",
+    "cost": "| $900",
+    "includes": "| Hotel, Food, Activities"
+  },
+  {
+    "id": 10,
+    "type": "Backpacking Tour through Australia ",
+    "duration": "14 days |",
+    "for": " 4+ |",
+    "cost": " $3500 |",
+    "includes": " Flight, Guides, Food"
+  },
+  {
+    "id": 11,
+    "type": "Find Your Soul in Seoul, South Korea  ",
+    "duration": "13 days | ",
+    "for": "1 Adult | ",
+    "cost": " $2800 |",
+    "includes": " Flight, Guides, Hotels, & Food ",
+    "special": " Special Offer"
+  },
+  {
+    "id": 12,
+    "type": "Universal Studios Excursion  ",
+    "duration": "5 days",
+    "for": " | 2 Adults & 1 child ",
+    "cost": "| $3500",
+    "includes": " | Flight, Hotel, Activities & Food ",
+    "special": " Special Offer"
+  },
+  {
+    "id": 13,
+    "type": "Exchange Program in Shanghai  ",
+    "duration": " 2 months | ",
+    "for": " 1 student | ",
+    "cost": " Scholarship |",
+    "includes": " All-Inclusive"
+  },
+  {
+    "id": 14,
+    "type": "Exchange Program in LA  ",
+    "duration": " 1.5 months | ",
+    "for": " 1 student | ",
+    "cost": " $1400 | ",
+    "includes": " Room & Board"
+  },
+  {
+    "id": 15,
+    "type": "Semester at Sea  ",
+    "duration": " 6 months | ",
+    "for": " Students | ",
+    "cost": " $6500 | ",
+    "includes": " All-Inclusive | ",
+    "special": " Special Offer"
+  }
+]

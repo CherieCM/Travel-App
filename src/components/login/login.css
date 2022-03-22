@@ -1,0 +1,50 @@
+.login .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login .form input {
+  margin: 5px 0;
+  width: 60vw;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.login .form input::placeholder {
+  color: gray;
+  font-weight: 700;
+}
+
+.login .form button {
+  background-color: #1e427c;
+  color: #fff;
+  padding: 8px;
+  border: 2px solid #1e427c;
+  margin-top: 5px;
+  font-family: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: background-color0.4s;
+}
+
+.login .form button:hover {
+  cursor: pointer;
+  background-color: transparent;
+}
+.error-msg {
+  font-size: 12px;
+  width: 100%;
+  color: red;
+}
+
+.success-msg {
+  width: 30%;
+  background-color: #0f834d;
+  color: #ffff;
+  font-weight: 600;
+}

@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #16212d;
+}
+
+.header .links {
+  margin: 0 10px;
+  text-decoration: none;
+  font-family: inherit;
+  color: #fff;
+}
+.header .links:hover {
+  background-color: #4562e0;
+}
+.header ul {
+  display: flex;
+  flex-direction: row;
+}

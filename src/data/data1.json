@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "cover": "https://images.pexels.com/photos/2161856/pexels-photo-2161856.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+    "category": "Book Your Next Trip",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt?Molestias rem qui sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt?Molestias rem qui sequi!"
+  },
+  {
+    "id": 1,
+    "cover": "https://images.pexels.com/photos/3278215/pexels-photo-3278215.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "category": "Search Travel Group Tours",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt? Molestias rem qui sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt?Molestias rem qui sequi!"
+  },
+  {
+    "id": 2,
+    "cover": "https://images.pexels.com/photos/5935228/pexels-photo-5935228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "category": "New Exchange Programs",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt? Molestias rem qui sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt?Molestias rem qui sequi!"
+  },
+  {
+    "id": 3,
+    "cover": "https://images.pexels.com/photos/843227/pexels-photo-843227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "category": "Travel Tips & Tricks",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt? Molestias rem qui sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt?Molestias rem qui sequi!"
+  },
+  {
+    "id": 4,
+    "cover": "https://images.pexels.com/photos/2087391/pexels-photo-2087391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "category": "Become a Brand Ambassador",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt? Molestias rem qui sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt?Molestias rem qui sequi!"
+  },
+  {
+    "id": 5,
+    "cover": "https://images.pexels.com/photos/264771/pexels-photo-264771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "category": "Book Your Next Holiday Package",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt? Molestias rem qui sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt?Molestias rem qui sequi!"
+  },
+  {
+    "id": 6,
+    "cover": "https://images.pexels.com/photos/105857/pexels-photo-105857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "category": "Backpacking Solo Adventures",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt? Molestias rem qui sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt?Molestias rem qui sequi!"
+  },
+  {
+    "id": 7,
+    "cover": "https://legacy.travelnoire.com/wp-content/uploads/2019/06/afro-hair-beach-blur-2531353.jpg",
+    "category": "Chat with Other Travelers",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt? Molestias rem qui sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ab nesciunt?Molestias rem qui sequi!"
+  }
+]
