@@ -10,18 +10,18 @@ import data from '../../data/data1.json';
 import CategoryList from './CategoryList';
 
 const Categories = (props) => {
-  console.log('data', data);
   return (
     <section className="category">
       <div className="grid">
-        {data.map((post) => (
-          <CategoryList
-            key={post.id}
-            cover={post.cover}
-            category={post.category}
-            description={post.description}
-          />
-        ))}
+        {data &&
+          data.map((post) => (
+            <CategoryList
+              key={post.id}
+              cover={post.cover}
+              category={post.category}
+              description={post.description}
+            />
+          ))}
       </div>
     </section>
     // <section className="categories">
