@@ -12,7 +12,9 @@ const Footer = () => {
     <footer className="footer">
       <ul>
         <li>
-          <button onClick={clickHandler}>Home</button>
+          <Link to="/">
+            <button onClick={clickHandler}>Home</button>
+          </Link>
         </li>
         <li>
           <Link to="/posts">
