@@ -1,0 +1,10 @@
+.greet {
+  color: hsl(206, 67%, 23%);
+  background-color: rgba(208, 203, 203, 0);
+  text-align: center;
+}
+.login-sign {
+  list-style: none;
+  color: #fff;
+  font-size: 20px;
+}
