@@ -24,7 +24,7 @@ import { UserContext } from './contexts/UserContext';
 
 function App() {
   return (
-    <UserContext.Provider value="Greetings Fellow Traveler">
+    <UserContext.Provider value="Greetings Fellow Traveler!">
       {/* <BlogContext.Provider> */}
       <Header />
       <Routes>
