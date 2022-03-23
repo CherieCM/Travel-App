@@ -48,3 +48,7 @@
   color: #ffff;
   font-weight: 600;
 }
+.overlay-title {
+  color: hsl(206, 67%, 23%);
+  background-color: rgba(208, 203, 203, 0.098);
+}
