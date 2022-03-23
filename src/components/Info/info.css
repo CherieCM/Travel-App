@@ -1,0 +1,14 @@
+.contact {
+  color: #fff;
+}
+.infoMain {
+  text-align: center;
+  font-size: 38px;
+}
+.back {
+  background: hsl(206, 77%, 26%);
+
+  padding: 125px;
+  /* padding-bottom: 265px;
+  padding-top: 10px; */
+}
