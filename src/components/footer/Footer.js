@@ -25,7 +25,9 @@ const Footer = () => {
 
       <ul>
         <li>
-          <button onClick={clickHandler}>Travel Tours</button>
+          <Link to="/info">
+            <button onClick={clickHandler}>Company Info</button>
+          </Link>
         </li>
         <li>
           <Link to="/blog">
