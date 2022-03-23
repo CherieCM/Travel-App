@@ -1,0 +1,27 @@
+/* body {
+  font-family: Arial;
+  padding: 20px;
+  background: rgb(90, 140, 173);
+} */
+.blogTitle {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+.cards {
+  background-color: rgb(123, 157, 180);
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.title {
+  text-align: left;
+  font-size: 25px;
+  padding: 5px;
+}
+.author {
+  display: grid;
+}
