@@ -4,6 +4,8 @@
   justify-content: space-around;
   padding: 20px;
   background-color: #16212d;
+  position: fixed;
+  width: 100%;
 }
 
 .header .links {
