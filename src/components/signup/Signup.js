@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { UserContext } from '../../contexts/UserContext';
+import './signup.css';
 // import Login from './components/login/Login';
 import { Link } from 'react-router-dom';
 
@@ -82,7 +83,7 @@ const SignUp = () => {
           <div className="reg-link">
             <p>If Account exist then</p>
             <Link className="link" to="/login">
-              <li>Login!</li>
+              <li className="login-sign">Login</li>
             </Link>
           </div>
         </form>
