@@ -27,7 +27,7 @@ function App() {
       {/* <BlogContext.Provider> */}
       <Header />
       <Routes>
-        <Route exact path="/" element={<Agency />} />
+        <Route exact path="/" element={[<Agency />, <Categories />]} />
 
         <Route path="/search" element={<Search />} />
         <Route path="/blog" element={<Blog />} />
@@ -39,7 +39,6 @@ function App() {
         <Route path="/posts" element={<Posts />} />
         <Route path="*" element={<Error />} />
       </Routes>
-      {<Categories />}
 
       <Footer />
       {/* </BlogContext.Provider> */}
