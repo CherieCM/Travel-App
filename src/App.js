@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 //import components
 import Header from './components/header/Header';
 import Login from './components/login/Login';
+// import Login1 from './components/login/Login1';
 import SignUp from './components/signup/Signup';
 import Profile from './components/Profile/profile';
 import Agency from './components/agency/Agency';
@@ -21,9 +22,11 @@ import Info from './components/Info/Info';
 //new version
 //import {SearchProvider} from "./contexts/SearchContext"
 import { UserContext } from './contexts/UserContext';
+// import { AuthProvider } from './contexts/AuthProvider';
 
 function App() {
   return (
+    // <AuthProvider>
     <UserContext.Provider value="Greetings Fellow Traveler!">
       {/* <BlogContext.Provider> */}
       <Header />
@@ -45,6 +48,7 @@ function App() {
       <Footer />
       {/* </BlogContext.Provider> */}
     </UserContext.Provider>
+    // </AuthProvider>
   );
 }
 
