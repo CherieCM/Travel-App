@@ -62,6 +62,7 @@
 }
 .sign-up {
   list-style: none;
-  color: #fff;
+  color: rgb(248, 241, 241);
   font-size: 20px;
+  font-weight: 400;
 }
