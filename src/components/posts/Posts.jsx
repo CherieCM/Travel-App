@@ -3,9 +3,9 @@ import './posts.css';
 
 const Posts = () => {
   return (
-    <section className="agency">
+    <section className="agency login">
       <div className="overlay">
-        <h1 className="title2"> Suggestion Box </h1>
+        <h2 className="title2"> Suggestion Box </h2>
         <h2 className="title2"> A penny for your thoughts!</h2> <br />
         <div>
           <form className="form" action="https://www.freecatphotoapp.com/submit-cat-photo">
