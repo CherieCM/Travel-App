@@ -17,6 +17,7 @@ import Blog from './components/blog/Blog';
 import Footer from './components/footer/Footer';
 import Error from './components/404/Error';
 import Info from './components/Info/Info';
+import Youtube from './components/youtube/Youtube';
 // import { BlogContext } from './contexts/BlogContext';
 // import AuthBtn from './components/authbtn/AuthBtn';
 //new version
@@ -43,6 +44,7 @@ function App() {
         <Route path="/posts" element={<Posts />} />
         <Route path="*" element={<Error />} />
         <Route path="/info" element={<Info />} />
+        <Route path="/tips" element={<Youtube />} />
       </Routes>
 
       <Footer />

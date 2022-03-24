@@ -60,3 +60,8 @@
   background-color: rgba(245, 244, 244, 0);
   font-size: 35px;
 }
+.sign-up {
+  list-style: none;
+  color: #fff;
+  font-size: 20px;
+}

@@ -129,7 +129,7 @@ const Login = () => {
               <br />
               <span className="line">
                 <Link className="link" to="/signup">
-                  <p>Sign Up</p>
+                  <p className="sign-up">Sign Up</p>
                 </Link>
               </span>
             </p>
