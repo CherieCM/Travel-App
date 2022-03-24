@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { UserContext } from '../../contexts/UserContext';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './login.css';
 // import AuthBtn from '../authbtn/AuthBtn';
 
@@ -34,9 +34,9 @@ const Login = () => {
       const emailRegex = /^[a-zA-Z0-9. !#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
       if (emailRegex.test(email)) {
         setEmailError('');
-        if (email === 'admin@admin.com') {
+        if (email === 'admin@admin.com' || email === 'che@email.com') {
           setEmailError('');
-          if (password === 'admin') {
+          if (password === 'admin' || password === 'cheche') {
             // successMsg
             setSuccessMsg('You are successfully logged in');
           } else {
@@ -72,35 +72,49 @@ const Login = () => {
   const msg = useContext(UserContext);
 
   return (
-    <section className="agency login">
-      <div className="overlay">
-        <h2 className="overlay-title">{msg}</h2>
-        {successMsg && <div className="success-msg">{successMsg}</div>}
-        <form className="form" autocomplete="off" onSubmit={handleFormSubmit}>
-          <input
-            type="text"
-            name="email"
-            id="email"
-            placeholder="Enter your email address"
-            onChange={handleEmailChange}
-            value={email}
-          />
-          {emailError && <div className="error-msg">{emailError}</div>}
+    <>
+      {successMsg ? (
+        <section className="agency login">
+          <div className="overlay">
+            <h2 className="overlay-title">{msg}</h2>
+            {successMsg && <div className="success-msg">{successMsg}</div>}
+            <br />
+            <p>
+              <Link className="link" to="/">
+                Go to Home
+              </Link>
+            </p>
+          </div>
+        </section>
+      ) : (
+        <section className="agency login">
+          <div className="overlay">
+            <h2 className="overlay-title1">Login</h2>
+            <form className="form" autocomplete="off" onSubmit={handleFormSubmit}>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Enter your email address"
+                onChange={handleEmailChange}
+                value={email}
+              />
+              {emailError && <div className="error-msg">{emailError}</div>}
 
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Enter your password"
-            onChange={handlePasswordChange}
-            value={password}
-          />
-          {passwordError && <div className="error-msg">{passwordError}</div>}
-          {/* direct login and logout buttons to corresponding page */}
-          <button type="submit">LOGIN</button>
-          {/* <button>LOGOUT</button> */}
-          {AuthBtn}
-          {/* <Link to="/">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter your password"
+                onChange={handlePasswordChange}
+                value={password}
+              />
+              {passwordError && <div className="error-msg">{passwordError}</div>}
+              {/* direct login and logout buttons to corresponding page */}
+              <button type="submit">LOGIN</button>
+              {/* <button>LOGOUT</button> */}
+              {AuthBtn}
+              {/* <Link to="/">
             <button type="submit">LOGIN</button>
             <button>LOGOUT</button>
           </Link>
@@ -108,51 +122,22 @@ const Login = () => {
             <Link className="link" to="/signup">
               <li>Signup Now</li>
             </Link> */}
-          {/* </div> */}
-        </form>
-      </div>
-    </section>
+              {/* </div> */}
+            </form>
+            <p>
+              Need an Account?
+              <br />
+              <span className="line">
+                <Link className="link" to="/signup">
+                  <p>Sign Up</p>
+                </Link>
+              </span>
+            </p>
+          </div>
+        </section>
+      )}
+    </>
   );
-
-  // const Login = () => {
-  //   const [emaillog, setEmailLog] = useState('');
-  //   const [password, setPasswordLog] = useState('');
-
-  //   return (
-  //     <section className="agency login">
-  //       <div className="overlay">
-  //         <form className="form">
-  //           <input
-  //             type="email"
-  //             name="email"
-  //             id="email"
-  //             placeholder="Email Address"
-  //             onChange={(event) => setEmailLog(event.target.value)}
-  //             required
-  //           />
-  //           <input
-  //             type="password"
-  //             name="password"
-  //             id="password"
-  //             placeholder="Password"
-  //             onChange={(event) => setPasswordLog(event.target.value)}
-  //             required
-  //           />
-  //           {/* direct login and logout buttons to corresponding page */}
-
-  //           <Link to="/">
-  //             <button type="submit">Login</button>
-  //             <button>Logout</button>
-  //           </Link>
-  //           <div className="sign-link">
-  //             <Link className="link" to="/signup">
-  //               <li>Signup Now</li>
-  //             </Link>
-  //           </div>
-  //         </form>
-  //       </div>
-  //     </section>
-  //   );
 };
 
 export default Login;

@@ -44,11 +44,19 @@
 
 .success-msg {
   width: 30%;
-  background-color: #0f834d;
-  color: #ffff;
+  padding-left: 15px;
+  background-color: #37a9c502;
+  color: rgb(23, 204, 144);
   font-weight: 600;
+  font-size: 28px;
 }
 .overlay-title {
-  color: hsl(206, 67%, 23%);
-  background-color: rgba(208, 203, 203, 0.098);
+  color: hsl(240, 5%, 96%);
+  background-color: rgba(245, 244, 244, 0);
+  font-size: 35px;
+}
+.overlay-title1 {
+  color: hsl(209, 86%, 30%);
+  background-color: rgba(245, 244, 244, 0);
+  font-size: 35px;
 }
