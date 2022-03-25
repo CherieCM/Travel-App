@@ -3,6 +3,7 @@ import List from './List';
 import './search.css';
 
 function Search() {
+  //store user input into a state
   const [inputList, setInputList] = useState('');
   let inputHandler = (e) => {
     //convert input text to lower case
