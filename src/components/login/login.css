@@ -59,6 +59,7 @@
   color: hsl(209, 86%, 30%);
   background-color: rgba(245, 244, 244, 0);
   font-size: 35px;
+  text-align: center;
 }
 .sign-up {
   list-style: none;

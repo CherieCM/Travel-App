@@ -82,7 +82,7 @@ const Login = () => {
             {successMsg && <div className="success-msg">{successMsg}</div>}
             <br />
             <p>
-              <Link className="link" to="/">
+              <Link style={{ textDecoration: 'none' }} className="link" to="/">
                 Go to Home
               </Link>
             </p>
@@ -130,7 +130,7 @@ const Login = () => {
               Need an Account?
               <br />
               <span className="line">
-                <Link className="link" to="/signup">
+                <Link style={{ textDecoration: 'none' }} className="link" to="/signup">
                   <p className="sign-up">Sign Up</p>
                 </Link>
               </span>
