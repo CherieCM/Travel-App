@@ -10,9 +10,15 @@ function List(props) {
     }
     // else return the item which matches the user input
     else {
-      return orig.type.toLowerCase().includes(props.input);
+      return (
+        orig.type.toLowerCase().includes(props.input) ||
+        orig.duration.toLowerCase().includes(props.input) ||
+        orig.for.toLowerCase().includes(props.input) ||
+        orig.cost.toLowerCase().includes(props.input)
+      );
     }
   });
+  //user input will be accessed via the props
   return (
     <div className="items">
       <ul>
