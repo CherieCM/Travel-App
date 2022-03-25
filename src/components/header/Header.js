@@ -30,7 +30,7 @@ const Header = () => {
             </li>
             <li>
               <Link className="links" to="/profile">
-                Profile
+                Profiles
               </Link>
             </li>
             <li>
