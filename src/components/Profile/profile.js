@@ -46,7 +46,7 @@ const Profile = () => {
     setTitle('name');
     setValue(newPerson.name);
   };
-  //use hook to have the empty dependency run once
+  //use hook to trigger the empty dependency run once
   useEffect(() => {
     fetchRandomPerson();
   }, []);
@@ -62,7 +62,9 @@ const Profile = () => {
 
   return (
     <main>
-      <div className="block bcg-black"></div>
+      <div className="block bcg-black">
+        <h1 className="overlay-title1">Travel Community</h1>
+      </div>
       <div className="block">
         <div className="container">
           <img
