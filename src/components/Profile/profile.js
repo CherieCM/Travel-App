@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-// import { FaEnvelopeOpen, FaUser, FaCalendarTimes, FaMap, FaPhone, FaLock } from 'react-icons/fa';
 
 import './profile.css';
 
@@ -7,12 +6,12 @@ const Profile = () => {
   const url = 'https://randomuser.me/api/';
   const defaultImage = 'https://randomuser.me/api/portraits/men/23.jpg';
 
-  // common conventions
+  // common conventions - setting up the state variables
   const [isLoading, setIsLoading] = useState(true);
   const [randomPerson, setRandomPerson] = useState(null);
   const [title, setTitle] = useState('name');
   const [value, setValue] = useState('random person');
-
+  //async and await syntax
   const fetchRandomPerson = async () => {
     setIsLoading(true);
     const response = await fetch(url);
@@ -47,11 +46,12 @@ const Profile = () => {
     setTitle('name');
     setValue(newPerson.name);
   };
-
+  //use hook to have the empty dependency run once
   useEffect(() => {
     fetchRandomPerson();
   }, []);
 
+  //create an event listener so that the value changes when hovered over
   const handleValue = (e) => {
     if (e.target.classList.contains('icon')) {
       const newValue = e.target.dataset.id;
@@ -74,42 +74,36 @@ const Profile = () => {
           <p className="user-value">{value}</p>
           <div className="values-list">
             <button className="icon" data-id="name" onMouseOver={handleValue}>
-              {/* <FaUser /> */}
               <img
                 src="https://d29fhpw069ctt2.cloudfront.net/icon/image/37746/preview.svg"
                 alt="user-icon"
               />
             </button>
             <button className="icon" data-id="email" onMouseOver={handleValue}>
-              {/* <FaEnvelopeOpen /> */}
               <img
                 src="https://d29fhpw069ctt2.cloudfront.net/icon/image/84642/preview.svg"
                 alt="envelope"
               />
             </button>
             <button className="icon" data-id="age" onMouseOver={handleValue}>
-              {/* <FaCalendarTimes /> */}
               <img
                 src="https://d29fhpw069ctt2.cloudfront.net/icon/image/37807/preview.svg"
                 alt="calendar-icon"
               />
             </button>
             <button className="icon" data-id="street" onMouseOver={handleValue}>
-              {/* <FaMap /> */}
               <img
                 src="https://d29fhpw069ctt2.cloudfront.net/icon/image/49230/preview.svg"
                 alt="map-icon"
               />
             </button>
             <button className="icon" data-id="phone" onMouseOver={handleValue}>
-              {/* <FaPhone /> */}
               <img
                 src="https://d29fhpw069ctt2.cloudfront.net/icon/image/84625/preview.svg"
                 alt="phone"
               />
             </button>
             <button className="icon" data-id="password" onMouseOver={handleValue}>
-              {/* <FaLock /> */}
               <img
                 src="https://d29fhpw069ctt2.cloudfront.net/icon/image/37722/preview.svg"
                 alt="envelope"

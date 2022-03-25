@@ -5,6 +5,7 @@ import './login.css';
 // import AuthBtn from '../authbtn/AuthBtn';
 
 const Login = () => {
+  //state variables
   const [email, setEmail] = useState('');
   const [emailError, setEmailError] = useState('');
 
@@ -68,10 +69,11 @@ const Login = () => {
       return <button>Login</button>;
     }
   };
-
+  //context for passing greetings value
   const msg = useContext(UserContext);
 
   return (
+    //set up message layout for successMsg
     <>
       {successMsg ? (
         <section className="agency login">
