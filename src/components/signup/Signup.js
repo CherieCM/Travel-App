@@ -82,7 +82,7 @@ const SignUp = () => {
           </div>
           <div className="reg-link">
             <p>If Account exist then</p>
-            <Link className="link" to="/login">
+            <Link style={{ textDecoration: 'none' }} className="link" to="/login">
               <li className="login-sign">Login</li>
             </Link>
           </div>
