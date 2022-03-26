@@ -60,15 +60,15 @@ const Login = () => {
     }
   };
 
-  const AuthBtn = (props) => {
-    let { isLoggedIn } = props;
+  // const AuthBtn = (props) => {
+  //   let { isLoggedIn } = props;
 
-    if (isLoggedIn) {
-      return <button>Logout</button>;
-    } else {
-      return <button>Login</button>;
-    }
-  };
+  //   if (isLoggedIn) {
+  //     return <button>Logout</button>;
+  //   } else {
+  //     return <button>Login</button>;
+  //   }
+  // };
   //context for passing greetings value
   const msg = useContext(UserContext);
 
@@ -115,7 +115,7 @@ const Login = () => {
               {/* direct login and logout buttons to corresponding page */}
               <button type="submit">LOGIN</button>
               {/* <button>LOGOUT</button> */}
-              {AuthBtn}
+              {/* {AuthBtn} */}
               {/* <Link to="/">
             <button type="submit">LOGIN</button>
             <button>LOGOUT</button>
