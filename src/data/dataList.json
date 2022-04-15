@@ -5,7 +5,8 @@
     "duration": " 7 days |",
     "for": "2 Adults |",
     "cost": " $1600 |",
-    "includes": "Flight & Hotel"
+    "includes": "Flight & Hotel",
+    "special": ""
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "duration": "18 days |",
     "for": "1 Adult |",
     "cost": " $1100 |",
-    "includes": " Flight, Guides, Hotels, & Food"
+    "includes": " Flight, Guides, Hotels, & Food",
+    "special": ""
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "duration": " 10-20 |",
     "for": " 5+ Adults|",
     "cost": " Range from $800-$2800|",
-    "includes": " Flight, Hotel, Activities"
+    "includes": " Flight, Hotel, Activities",
+    "special": ""
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "duration": " 8 Days |",
     "for": " 2 Adults |",
     "cost": " $3400 |",
-    "includes": " All-Inclusive"
+    "includes": " All-Inclusive",
+    "special": ""
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "duration": " 3 Months |",
     "for": " 4 Students |",
     "cost": " $4500 per student |",
-    "includes": " Flights, Travel, Housing, Food"
+    "includes": " Flights, Travel, Housing, Food",
+    "special": ""
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "duration": " 14 days",
     "for": " | 2-4 Adults",
     "cost": "| $1900 per Adult",
-    "includes": " |Flight, Hostel, Guides"
+    "includes": " |Flight, Hostel, Guides",
+    "special": ""
   },
   {
     "id": 7,
@@ -71,7 +77,8 @@
     "duration": "7 days",
     "for": " | 2 Adults ",
     "cost": "| $900",
-    "includes": "| Hotel, Food, Activities"
+    "includes": "| Hotel, Food, Activities",
+    "special": ""
   },
   {
     "id": 10,
@@ -79,7 +86,8 @@
     "duration": "14 days |",
     "for": " 4+ |",
     "cost": " $3500 |",
-    "includes": " Flight, Guides, Food"
+    "includes": " Flight, Guides, Food",
+    "special": ""
   },
   {
     "id": 11,
@@ -105,7 +113,8 @@
     "duration": " 2 months | ",
     "for": " 1 student | ",
     "cost": " Scholarship |",
-    "includes": " All-Inclusive"
+    "includes": " All-Inclusive",
+    "special": ""
   },
   {
     "id": 14,
@@ -113,7 +122,8 @@
     "duration": " 1.5 months | ",
     "for": " 1 student | ",
     "cost": " $1400 | ",
-    "includes": " Room & Board"
+    "includes": " Room & Board",
+    "special": ""
   },
   {
     "id": 15,
