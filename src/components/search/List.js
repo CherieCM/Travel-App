@@ -15,7 +15,9 @@ function List(props) {
         orig.type.toLowerCase().includes(props.input) ||
         orig.duration.toLowerCase().includes(props.input) ||
         orig.for.toLowerCase().includes(props.input) ||
-        orig.cost.toLowerCase().includes(props.input)
+        orig.cost.toLowerCase().includes(props.input) ||
+        orig.includes.toLowerCase().includes(props.input) ||
+        orig.special.toLowerCase().includes(props.input)
       );
     }
   });
