@@ -14,6 +14,7 @@ const Login = () => {
 
   const [successMsg, setSuccessMsg] = useState('');
 
+  //Event listener for clearing screen
   const handleEmailChange = (e) => {
     setSuccessMsg('');
     setEmailError('');
@@ -35,6 +36,7 @@ const Login = () => {
       const emailRegex = /^[a-zA-Z0-9. !#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
       if (emailRegex.test(email)) {
         setEmailError('');
+        //dummy login information for admin and users
         if (email === 'admin@admin.com' || email === 'che@email.com') {
           setEmailError('');
           if (password === 'admin' || password === 'cheche') {
