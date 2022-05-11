@@ -2,7 +2,6 @@ import React, { useState, useContext } from 'react';
 import { UserContext } from '../../contexts/UserContext';
 import { Link } from 'react-router-dom';
 import './login.css';
-// import AuthBtn from '../authbtn/AuthBtn';
 
 const Login = () => {
   //state variables
@@ -62,15 +61,6 @@ const Login = () => {
     }
   };
 
-  // const AuthBtn = (props) => {
-  //   let { isLoggedIn } = props;
-
-  //   if (isLoggedIn) {
-  //     return <button>Logout</button>;
-  //   } else {
-  //     return <button>Login</button>;
-  //   }
-  // };
   //context for passing greetings value
   const msg = useContext(UserContext);
 
@@ -116,17 +106,6 @@ const Login = () => {
               {passwordError && <div className="error-msg">{passwordError}</div>}
               {/* direct login and logout buttons to corresponding page */}
               <button type="submit">LOGIN</button>
-              {/* <button>LOGOUT</button> */}
-              {/* {AuthBtn} */}
-              {/* <Link to="/">
-            <button type="submit">LOGIN</button>
-            <button>LOGOUT</button>
-          </Link>
-          <div className="sign-link">
-            <Link className="link" to="/signup">
-              <li>Signup Now</li>
-            </Link> */}
-              {/* </div> */}
             </form>
             <p>
               Need an Account?
