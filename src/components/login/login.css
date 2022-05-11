@@ -29,7 +29,7 @@
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 10px;
-  transition: background-color0.4s;
+  transition: background-color 0.4s;
 }
 
 .login .form button:hover {
