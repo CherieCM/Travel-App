@@ -94,7 +94,7 @@ Global Classes
 Container
 */
 .block {
-  min-height: 40vh;
+  min-height: 30vh;
   background: url('../../assets/Image2.jpg') no-repeat center/cover;
 }
 
