@@ -7,7 +7,7 @@
 }
 .back {
   background: hsl(206, 46%, 56%);
-
+  height: 100vh;
   padding: 192px;
   /* padding-bottom: 265px;
   padding-top: 10px; */
